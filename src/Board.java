@@ -1,5 +1,5 @@
 /**
- * Created by theoxola on 2017-03-30.
+ * Created by theoxo on 2017-03-30.
  */
 public class Board {
 
