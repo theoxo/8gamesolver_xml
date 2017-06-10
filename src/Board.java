@@ -1,5 +1,5 @@
 /**
- * Created by theoxola on 2017-03-30.
+ * Created by theoxo on 2017-03-30.
  */
 public class Board {
 
@@ -47,7 +47,7 @@ public class Board {
             return true;
         }
 
-        // generate next steps
+        // generate next steps --- sorry about the mess
         public static Board[] nextBoards(Board b){
 
             // max of 4 new boards can be generated at each step
@@ -363,34 +363,5 @@ public class Board {
             this.layout = layout;
         }
 
-    // main for testing purposes
-        public static void main(String[] args){
-            Board test_def = new Board();
-            Board test_lay = new Board("7813456*2");
-            Board test_inc1 = new Board("122");
-            Board test_inc2 = new Board("777888922");
 
-            System.out.println(test_def.getLayout());
-            System.out.println(test_lay.getLayout());
-            System.out.println(test_inc1.getLayout());
-            System.out.println(test_inc2.getLayout());
-
-            Board[] test_next = nextBoards(test_def);
-
-            System.out.println();
-
-            for (Board b : test_next){
-                System.out.println(b.getLayout());
-            }
-
-            Board[] test_next2 = nextBoards(test_lay);
-
-            System.out.println();
-
-            for (Board b : test_next2){
-                System.out.println(b.getLayout());
-            }
-
-        }
-
-    }
+}
