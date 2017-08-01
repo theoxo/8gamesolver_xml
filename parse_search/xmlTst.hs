@@ -5,6 +5,10 @@
   it's really not
   doesn't even work
   currently
+  
+  -------------------------
+  
+  status: compiles; returns "Nothing" (not *nothing*, "Nothing"!). Eg., not behaving as desired.
 -}
 
 
